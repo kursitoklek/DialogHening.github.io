@@ -1,0 +1,263 @@
+        body {
+            font-family: 'Montserrat';
+            background-color: #191A1E;
+            height: 2000px;
+        }
+        
+        .navbar {
+            background-color: #191A1E;
+        }
+        
+        nav {
+            border-bottom: 1px solid;
+        }
+        
+        .nav-item {
+            margin-right: 24px;
+            font-weight: 300;
+        }
+        
+        .nav-item.active a {
+            color: #E0A030 !important;
+            font-weight: 600;
+        }
+        
+        .nav-link {
+            color: white;
+        }
+        
+        .nav-link span {
+            color: #E0A030;
+            font-weight: 600;
+        }
+        /* slide gaes */
+        
+        .carousel {
+            height: 465px;
+            background-color: #191A1E;
+            color: #D7D9D8;
+        }
+        
+        .carousel h1 {
+            font-family: 'Lora';
+        }
+        
+        .carousel p {
+            font-family: 'Montserrat';
+            font-weight: 200;
+        }
+        /* topbuku gaes */
+        
+        .topbuku h3 {
+            font-family: 'Lora';
+            color: #E0A030;
+        }
+        
+        .topbuku p {
+            font-weight: 200;
+        }
+        
+        .figure h5 {
+            color: #707070;
+            font-family: 'Lora';
+            font-weight: bold;
+        }
+        
+        .figure h6 {
+            color: #B8ADAD;
+        }
+        
+        .figure p {
+            font-weight: 500;
+        }
+        
+        .penulis h3 {
+            font-family: 'Lora';
+            color: #E0A030;
+        }
+        
+        .penulis p {
+            font-weight: 200;
+        }
+        
+        .figure-img {
+            position: relative;
+        }
+        
+        .figure-img a {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 8px;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .figure-img:hover a {
+            opacity: 1;
+        }
+        
+        .figure-caption p {
+            font-weight: 500;
+        }
+        
+        footer {
+            background-color: #272424;
+        }
+        
+        footer p {
+            color: #707070;
+        }
+        
+        footer span {
+            color: #E0A030;
+        }
+        /* ini search bar cok */
+        
+        .wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.6);
+            max-width: 550px;
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5px;
+        }
+        
+        .wrapper .input {
+            width: 85%;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .searchbtn {
+            background: #ffec00;
+            width: 10%;
+            border-radius: 5px;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .searchbtn .fas {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+        }
+        /* akhir search bar */
+        /* breadcrumb */
+        
+        .breadcrumb {
+            margin-top: 100px;
+        }
+        
+        .btn-product {
+            margin: 50px 0;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #B8ADAD;
+        }
+        
+        .btn-product .btn {
+            display: block;
+            margin: 10px 0;
+        }
+        
+        .penulisnovel h5 {
+            font-size: 14px;
+            font-weight: 200px;
+            color: #B8ADAD;
+            margin-bottom: 10px;
+        }
+        
+        .penulisnovel h4 {
+            color: #B8ADAD;
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        .penulisnovel p {
+            color: #B8ADAD;
+            font-weight: 200px;
+            text-align: center;
+            margin-right: 20px;
+        }
+        
+        .penulisnovel span {
+            color: #B8ADAD;
+            text-align: center;
+        }
+        /* deskripsi dan review */
+        
+        .deskripsi {
+            background: #1D1E22;
+            height: 350px;
+        }
+        
+        .deskripsi .nav-item:active {
+            border: 1px solid #191A1E;
+            background-color: #E0A030;
+            color: #E0A030;
+        }
+        
+        .deskripsi .tab-content {
+            background-color: #191A1E;
+            color: #D2CCCC;
+            border: 1px solid #fff;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
+        }
+        
+        .review-bro {
+            height: 330px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        
+        .deskripsi-bro {
+            overflow-y: hidden;
+        }
+        
+        .review-bro h5 {
+            font-family: 'Lora';
+            font-size: 22px;
+            color: #707070;
+        }
+        
+        .review-bro p {
+            font-size: 15px;
+        }
+        
+        .produk-lain {
+            margin-top: 220px;
+        }
+        
+        .produk-lain h3 {
+            font-family: 'Lora';
+            color: #E0A030;
+            font-weight: bold;
+        }
+        
+        .produk-lain p {
+            font-weight: 200;
+            color: #B8ADAD;
+        }
+        
+        .cart-header h3 {
+            font-family: 'Lora';
+            color: #E0A030;
+            font-weight: bold;
+        }
+        
+        .cart-header p {
+            font-weight: 200;
+            color: #B8ADAD;
+        }
